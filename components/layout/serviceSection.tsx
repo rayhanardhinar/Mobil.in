@@ -35,7 +35,7 @@ const features = [
 
 export default function ServiceSection() {
   return (
-    <div className="min-h-screen flex items-center">
+    <div id="service" className="min-h-screen flex items-center">
       <section className="container mx-auto space-y-8 px-4 py-24 md:px-6 2xl:max-w-[1400px]">
         <div className="space-y-4 text-center">
           <h2 className="text-3xl font-bold">

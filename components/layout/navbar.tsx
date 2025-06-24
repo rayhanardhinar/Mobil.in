@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import { Link } from "react-scroll";
+import ModeToggle from "../ui/modeToggle";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -42,10 +43,10 @@ export default function Navbar() {
               to="service"
               smooth={true}
               duration={900}
-              offset={-80}
+              offset={-60}
               className="hover:text-blue-500 transition-colors cursor-pointer"
             >
-              Services
+              Service
             </Link>
           </li>
           <li>
@@ -59,11 +60,14 @@ export default function Navbar() {
               Contact
             </Link>
           </li>
+          <li>
+            <ModeToggle />
+          </li>
         </ul>
 
         {/* Mobile Hamburger Button */}
         <button
-          className="md:hidden text-xl focus:outline-none transition-transform hover:scale-110"
+          className="md:hidden text-xl focus:outline-none transition-transform hover:scale-110 cursor-pointer"
           onClick={() => setIsOpen(!isOpen)}
           aria-label="Toggle menu"
         >
@@ -83,50 +87,50 @@ export default function Navbar() {
         `}
         >
           <ul className="flex flex-col items-center gap-4 p-4">
-            <li>
+            <li className="w-full">
               <Link
                 to="hero"
                 smooth={true}
                 duration={900}
                 offset={-80}
                 onClick={() => setIsOpen(false)}
-                className="block w-full text-center py-2 hover:text-blue-500 transition-colors"
+                className="block w-full text-center py-2 hover:text-blue-500 transition-colors cursor-pointer"
               >
                 Home
               </Link>
             </li>
-            <li>
+            <li className="w-full">
               <Link
                 to="about"
                 smooth={true}
                 duration={900}
                 offset={-80}
                 onClick={() => setIsOpen(false)}
-                className="block w-full text-center py-2 hover:text-blue-500 transition-colors"
+                className="block w-full text-center py-2 hover:text-blue-500 transition-colors cursor-pointer"
               >
                 About
               </Link>
             </li>
-            <li>
+            <li className="w-full">
               <Link
                 to="service"
                 smooth={true}
                 duration={900}
-                offset={-80}
+                offset={20}
                 onClick={() => setIsOpen(false)}
-                className="block w-full text-center py-2 hover:text-blue-500 transition-colors"
+                className="block w-full text-center py-2 hover:text-blue-500 transition-colors cursor-pointer"
               >
-                Services
+                Service
               </Link>
             </li>
-            <li>
+            <li className="w-full">
               <Link
                 to="contact"
                 smooth={true}
                 duration={900}
-                offset={35}
+                offset={0}
                 onClick={() => setIsOpen(false)}
-                className="block w-full text-center py-2 hover:text-blue-500 transition-colors"
+                className="block w-full text-center py-2 hover:text-blue-500 transition-colors cursor-pointer"
               >
                 Contact
               </Link>
