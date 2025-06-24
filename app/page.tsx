@@ -25,7 +25,7 @@ export default function Home() {
     initAos();
   }, []);
   return (
-    <>
+    <div className="w-full max-w-[100vw] overflow-x-hidden">
       <Navbar />
       <HeroSection />
       <AboutSection />
@@ -35,6 +35,6 @@ export default function Home() {
       <div className="fixed bottom-4 right-4 z-50 block md:hidden">
         <ModeToggle />
       </div>
-    </>
+    </div>
   );
 }
