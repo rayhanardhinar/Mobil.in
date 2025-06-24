@@ -9,7 +9,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 z-50 w-full backdrop-blur border-b border-white/10 shadow-sm">
+    <nav className="sticky top-0 z-999 w-full backdrop-blur border-b border-white/10 shadow-sm">
       <div className="container mx-auto flex items-center justify-between p-4 md:px-6 2xl:max-w-[1400px]">
         <Link to="hero" smooth={true} duration={900} offset={-80}>
           <h1 className="cursor-pointer text-2xl font-bold">Mobil.in</h1>
