@@ -54,7 +54,7 @@ export default function Navbar() {
               to="contact"
               smooth={true}
               duration={900}
-              offset={30}
+              offset={-20}
               className="hover:text-blue-500 transition-colors cursor-pointer"
             >
               Contact

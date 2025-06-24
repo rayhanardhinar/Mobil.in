@@ -30,7 +30,9 @@ export default function HeroSection() {
               </Button>
 
               <Button size={"lg"} variant={"outline"}>
-                Learn More
+                <Link to="about" smooth={true} duration={900}>
+                  Learn More
+                </Link>
               </Button>
             </div>
           </div>

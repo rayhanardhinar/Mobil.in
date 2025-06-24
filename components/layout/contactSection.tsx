@@ -10,7 +10,7 @@ export default function ContactSection() {
   return (
     <div
       id="contact"
-      className="container mx-auto px-4 py-24 md:px-6 lg:py-32 2xl:max-w-[1400px]"
+      className="min-h-screen container mx-auto px-4 py-24 md:px-6 lg:py-32 2xl:max-w-[1400px]"
     >
       {/* Title */}
       <div className="mx-auto max-w-xl text-center">
