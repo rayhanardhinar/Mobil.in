@@ -9,6 +9,7 @@ import Link from "next/link";
 export default function ContactSection() {
   return (
     <div
+      data-aos="zoom-in"
       id="contact"
       className="min-h-screen container mx-auto px-4 py-24 md:px-6 lg:py-32 2xl:max-w-[1400px]"
     >

@@ -37,7 +37,7 @@ export default function ServiceSection() {
   return (
     <div id="service" className="min-h-screen flex items-center">
       <section className="container mx-auto space-y-8 px-4 py-24 md:px-6 2xl:max-w-[1400px]">
-        <div className="space-y-4 text-center">
+        <div data-aos="fade-up" className="space-y-4 text-center">
           <h2 className="text-3xl font-bold">
             Your Seamless Car Buying Experience
           </h2>
@@ -49,7 +49,7 @@ export default function ServiceSection() {
 
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 max-w-4xl mx-auto">
           {features.map((feature) => (
-            <Card key={feature.title} className="p-0">
+            <Card data-aos="zoom-in" key={feature.title} className="p-0">
               <CardContent className="space-y-2 p-6">
                 <feature.icon className="text-primary h-12 w-12" />
                 <h3 className="font-bold">{feature.title}</h3>

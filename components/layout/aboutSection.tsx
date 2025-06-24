@@ -1,5 +1,3 @@
-"use client";
-
 import {
   BrainCogIcon,
   PackageIcon,
@@ -13,7 +11,7 @@ export default function AboutSection() {
   return (
     <section id="about" className="min-h-screen flex items-center">
       <div className="container mx-auto px-4 md:px-6 2xl:max-w-[1400px]">
-        <div className="mx-auto max-w-3xl text-center">
+        <div data-aos="fade-up" className="mx-auto max-w-3xl text-center">
           <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
             What Guides Our Decisions
           </h2>
@@ -31,7 +29,7 @@ export default function AboutSection() {
             <div className="grid md:grid-cols-2 gap-6 lg:gap-12">
               <div className="space-y-6 lg:space-y-10">
                 {/* Icon Block */}
-                <div className="flex">
+                <div data-aos="fade-right" className="flex">
                   <BrainCogIcon className="flex-shrink-0 mt-2 h-8 w-8" />
                   <div className="ms-5 sm:ms-8">
                     <h3 className="text-base sm:text-lg font-semibold">
@@ -45,7 +43,7 @@ export default function AboutSection() {
                 </div>
                 {/* End Icon Block */}
                 {/* Icon Block */}
-                <div className="flex">
+                <div data-aos="fade-right" className="flex">
                   <PackageIcon className="flex-shrink-0 mt-2 h-8 w-8" />
                   <div className="ms-5 sm:ms-8">
                     <h3 className="text-base sm:text-lg font-semibold">
@@ -60,7 +58,7 @@ export default function AboutSection() {
                 </div>
                 {/* End Icon Block */}
                 {/* Icon Block */}
-                <div className="flex">
+                <div data-aos="fade-right" className="flex">
                   <ZapIcon className="flex-shrink-0 mt-2 h-8 w-8" />
                   <div className="ms-5 sm:ms-8">
                     <h3 className="text-base sm:text-lg font-semibold">
@@ -78,7 +76,7 @@ export default function AboutSection() {
               {/* End Col */}
               <div className="space-y-6 lg:space-y-10">
                 {/* Icon Block */}
-                <div className="flex">
+                <div data-aos="fade-left" className="flex">
                   <TrophyIcon className="flex-shrink-0 mt-2 h-8 w-8" />
                   <div className="ms-5 sm:ms-8">
                     <h3 className="text-base sm:text-lg font-semibold">
@@ -93,7 +91,7 @@ export default function AboutSection() {
                 </div>
                 {/* End Icon Block */}
                 {/* Icon Block */}
-                <div className="flex">
+                <div data-aos="fade-left" className="flex">
                   <UsersIcon className="flex-shrink-0 mt-2 h-8 w-8" />
                   <div className="ms-5 sm:ms-8">
                     <h3 className="text-base sm:text-lg font-semibold">
@@ -108,7 +106,7 @@ export default function AboutSection() {
                 </div>
                 {/* End Icon Block */}
                 {/* Icon Block */}
-                <div className="flex">
+                <div data-aos="fade-left" className="flex">
                   <ThumbsUpIcon className="flex-shrink-0 mt-2 h-8 w-8" />
                   <div className="ms-5 sm:ms-8">
                     <h3 className="text-base sm:text-lg font-semibold">
