@@ -20,6 +20,16 @@
 - **Komponen UI**: [shadcn/ui](https://ui.shadcn.com/)  
 - **Ikon & Gambar**: Lucide Icons, Unsplash
 
+## 🌐 Demo
+
+Website ini telah berhasil di-deploy dan dapat diakses secara publik melalui Vercel:
+
+🔗 **[mobil-in.vercel.app](https://mobil-in.vercel.app/)**
+
+Klik link di atas untuk melihat tampilan langsung landing page showroom mobil **Mobil In** dengan fitur interaktif, desain responsif, dan pengalaman pengguna yang modern.
+
+[![Deploy with Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel)](https://mobil-in.vercel.app/)
+
 ## 🚧 Cara Menjalankan Project
 
 ```bash
