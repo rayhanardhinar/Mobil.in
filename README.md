@@ -4,21 +4,18 @@
 
 ## ✨ Fitur Utama
 
-- 🖼️ **Tampilan Galeri Menarik**  
-  Menampilkan gambar mobil dengan layout modern dan animasi halus.
-
 - 📱 **Desain Responsif**  
   Optimal di berbagai perangkat, mulai dari desktop hingga smartphone.
 
-- 📄 **Section Informasi Lengkap**  
-  Menyediakan informasi tentang produk, layanan, fitur mobil, testimonial, dan kontak showroom.
+- 📄 **Section Informasi Mendukung**  
+  Menyediakan informasi tentang website, layanan, dan kontak showroom.
 
 - 🚀 **Navigasi Smooth Scroll & Interaktif**  
   Pengalaman pengguna yang mulus dengan transisi scroll yang lembut.
 
 ## 🛠️ Teknologi yang Digunakan
 
-- **Framework**: Vite + React + TypeScript  
+- **Framework**: Next.js
 - **Styling**: Tailwind CSS  
 - **Komponen UI**: [shadcn/ui](https://ui.shadcn.com/)  
 - **Ikon & Gambar**: Lucide Icons, Unsplash
